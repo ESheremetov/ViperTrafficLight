@@ -13,7 +13,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        let defaults = UserDefaults.standard
+        if defaults.integer(forKey: "trafficLightType") == 0 {
+            defaults.set(2.0, forKey: "timeOn")
+            defaults.set(1, forKey: "trafficLightType")
+            defaults.set("Red,Yellow,Green", forKey: "colors")
+        }
         return true
     }
 

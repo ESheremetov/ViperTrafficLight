@@ -1,0 +1,22 @@
+[
+    {
+        "section": 0,
+        "name": "Time of the <On> state",
+        "cell": "onTimeCell"
+    },
+    {
+        "section": 1,
+        "name": "Type",
+        "cell": "typeCell"
+    },
+    {
+        "section": 2,
+        "name": "Colors",
+        "cell": "colorsCell"
+    },
+    {
+        "section": 3,
+        "name": "Apply changes",
+        "cell": "buttonsCell"
+    }
+]

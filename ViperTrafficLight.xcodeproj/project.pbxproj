@@ -7,15 +7,54 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		049F995B282B9F0D004473C2 /* CustomAnimationCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049F995A282B9F0D004473C2 /* CustomAnimationCircle.swift */; };
+		049F995D282BA967004473C2 /* TFTypeViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049F995C282BA967004473C2 /* TFTypeViewControllerDelegate.swift */; };
+		049F995F282D0B85004473C2 /* SettingsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049F995E282D0B85004473C2 /* SettingsPresenter.swift */; };
+		049F9961282D0B92004473C2 /* SettingsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049F9960282D0B92004473C2 /* SettingsInteractor.swift */; };
+		049F9963282D0BA4004473C2 /* SettingsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049F9962282D0BA4004473C2 /* SettingsRouter.swift */; };
+		049F9965282D0BB2004473C2 /* SettingsConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049F9964282D0BB2004473C2 /* SettingsConfigurator.swift */; };
+		049F996928318E04004473C2 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049F996828318E04004473C2 /* SettingsViewController.swift */; };
+		049F996E283223A5004473C2 /* settings.json in Resources */ = {isa = PBXBuildFile; fileRef = 049F996D283223A5004473C2 /* settings.json */; };
+		049F997028322487004473C2 /* BundleExtenssion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049F996F28322487004473C2 /* BundleExtenssion.swift */; };
+		049F9973283224C2004473C2 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049F9972283224C1004473C2 /* Settings.swift */; };
+		049F997728325411004473C2 /* LocalConnectionRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049F997628325411004473C2 /* LocalConnectionRouter.swift */; };
+		049F99792832541A004473C2 /* LocalConnectionPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049F99782832541A004473C2 /* LocalConnectionPresenter.swift */; };
+		049F997B28325426004473C2 /* LocalConnectionInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049F997A28325426004473C2 /* LocalConnectionInteractor.swift */; };
+		049F997D28325439004473C2 /* LocalConnectionConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049F997C28325439004473C2 /* LocalConnectionConfigurator.swift */; };
+		049F997F28325450004473C2 /* LocalConnectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049F997E28325450004473C2 /* LocalConnectionViewController.swift */; };
+		049F99812832A26F004473C2 /* local_settings.json in Resources */ = {isa = PBXBuildFile; fileRef = 049F99802832A26F004473C2 /* local_settings.json */; };
 		04EA8BCC282106DB005DE9D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EA8BCB282106DB005DE9D3 /* AppDelegate.swift */; };
 		04EA8BCE282106DB005DE9D3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EA8BCD282106DB005DE9D3 /* SceneDelegate.swift */; };
-		04EA8BD0282106DB005DE9D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EA8BCF282106DB005DE9D3 /* ViewController.swift */; };
 		04EA8BD3282106DB005DE9D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04EA8BD1282106DB005DE9D3 /* Main.storyboard */; };
 		04EA8BD5282106DE005DE9D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04EA8BD4282106DE005DE9D3 /* Assets.xcassets */; };
 		04EA8BD8282106DE005DE9D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04EA8BD6282106DE005DE9D3 /* LaunchScreen.storyboard */; };
 		04EA8BE3282106DE005DE9D3 /* ViperTrafficLightTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EA8BE2282106DE005DE9D3 /* ViperTrafficLightTests.swift */; };
 		04EA8BED282106DE005DE9D3 /* ViperTrafficLightUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EA8BEC282106DE005DE9D3 /* ViperTrafficLightUITests.swift */; };
 		04EA8BEF282106DE005DE9D3 /* ViperTrafficLightUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EA8BEE282106DE005DE9D3 /* ViperTrafficLightUITestsLaunchTests.swift */; };
+		04EA8C072822624E005DE9D3 /* TrafficLightState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EA8C062822624E005DE9D3 /* TrafficLightState.swift */; };
+		04EA8C0928226263005DE9D3 /* TrafficLightService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EA8C0828226263005DE9D3 /* TrafficLightService.swift */; };
+		04EA8C0B28226271005DE9D3 /* TrafficLightLocalService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EA8C0A28226271005DE9D3 /* TrafficLightLocalService.swift */; };
+		04EA8C0D28226294005DE9D3 /* TrafficLightServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EA8C0C28226294005DE9D3 /* TrafficLightServiceProtocol.swift */; };
+		04EA8C1028227699005DE9D3 /* FirstTypeTrafficLightView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04EA8C0F28227699005DE9D3 /* FirstTypeTrafficLightView.xib */; };
+		04EA8C14282506C6005DE9D3 /* NibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EA8C13282506C6005DE9D3 /* NibView.swift */; };
+		04EA8C1828250EC1005DE9D3 /* SecondTypeTrafficLightView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04EA8C1728250EC1005DE9D3 /* SecondTypeTrafficLightView.xib */; };
+		04EA8C1A28250ED1005DE9D3 /* SecondTypeTrafficLightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EA8C1928250ED1005DE9D3 /* SecondTypeTrafficLightView.swift */; };
+		04EA8C1C28251621005DE9D3 /* AboutConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EA8C1B28251621005DE9D3 /* AboutConfigurator.swift */; };
+		04EA8C1E2825169C005DE9D3 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EA8C1D2825169C005DE9D3 /* AboutViewController.swift */; };
+		04EA8C2028251720005DE9D3 /* AboutPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EA8C1F28251720005DE9D3 /* AboutPresenter.swift */; };
+		04EA8C2228251908005DE9D3 /* AboutInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EA8C2128251908005DE9D3 /* AboutInteractor.swift */; };
+		04EA8C24282519B6005DE9D3 /* AboutRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EA8C23282519B6005DE9D3 /* AboutRouter.swift */; };
+		04EA8C26282525E2005DE9D3 /* GitUrlService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EA8C25282525E2005DE9D3 /* GitUrlService.swift */; };
+		04EA8C2828252BBC005DE9D3 /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EA8C2728252BBC005DE9D3 /* MainPresenter.swift */; };
+		04EA8C2A28252BD0005DE9D3 /* MainInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EA8C2928252BD0005DE9D3 /* MainInteractor.swift */; };
+		04EA8C2C28252BDD005DE9D3 /* MainRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EA8C2B28252BDD005DE9D3 /* MainRouter.swift */; };
+		04EA8C2E28252BEC005DE9D3 /* MainConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EA8C2D28252BEC005DE9D3 /* MainConfigurator.swift */; };
+		04EA8C3028252BFF005DE9D3 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EA8C2F28252BFF005DE9D3 /* MainViewController.swift */; };
+		04EA8C332826B31E005DE9D3 /* TrafficLightLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EA8C322826B31E005DE9D3 /* TrafficLightLogic.swift */; };
+		04EA8C352826DE81005DE9D3 /* UIViewExtenssion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EA8C342826DE81005DE9D3 /* UIViewExtenssion.swift */; };
+		04EA8C372827A8BD005DE9D3 /* FirstTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EA8C362827A8BD005DE9D3 /* FirstTypeViewController.swift */; };
+		04EA8C392827A8D6005DE9D3 /* SecondTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EA8C382827A8D6005DE9D3 /* SecondTypeViewController.swift */; };
+		04EA8C402827E313005DE9D3 /* FirstTypeTrafficLightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EA8C3F2827E313005DE9D3 /* FirstTypeTrafficLightView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +75,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		049F995A282B9F0D004473C2 /* CustomAnimationCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnimationCircle.swift; sourceTree = "<group>"; };
+		049F995C282BA967004473C2 /* TFTypeViewControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TFTypeViewControllerDelegate.swift; sourceTree = "<group>"; };
+		049F995E282D0B85004473C2 /* SettingsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsPresenter.swift; sourceTree = "<group>"; };
+		049F9960282D0B92004473C2 /* SettingsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsInteractor.swift; sourceTree = "<group>"; };
+		049F9962282D0BA4004473C2 /* SettingsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRouter.swift; sourceTree = "<group>"; };
+		049F9964282D0BB2004473C2 /* SettingsConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsConfigurator.swift; sourceTree = "<group>"; };
+		049F996828318E04004473C2 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		049F996D283223A5004473C2 /* settings.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = settings.json; sourceTree = "<group>"; };
+		049F996F28322487004473C2 /* BundleExtenssion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleExtenssion.swift; sourceTree = "<group>"; };
+		049F9972283224C1004473C2 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		049F997628325411004473C2 /* LocalConnectionRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalConnectionRouter.swift; sourceTree = "<group>"; };
+		049F99782832541A004473C2 /* LocalConnectionPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalConnectionPresenter.swift; sourceTree = "<group>"; };
+		049F997A28325426004473C2 /* LocalConnectionInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalConnectionInteractor.swift; sourceTree = "<group>"; };
+		049F997C28325439004473C2 /* LocalConnectionConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalConnectionConfigurator.swift; sourceTree = "<group>"; };
+		049F997E28325450004473C2 /* LocalConnectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalConnectionViewController.swift; sourceTree = "<group>"; };
+		049F99802832A26F004473C2 /* local_settings.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = local_settings.json; sourceTree = "<group>"; };
 		04EA8BC8282106DB005DE9D3 /* ViperTrafficLight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViperTrafficLight.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04EA8BCB282106DB005DE9D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04EA8BCD282106DB005DE9D3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		04EA8BCF282106DB005DE9D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		04EA8BD2282106DB005DE9D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04EA8BD4282106DE005DE9D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04EA8BD7282106DE005DE9D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +103,30 @@
 		04EA8BE8282106DE005DE9D3 /* ViperTrafficLightUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViperTrafficLightUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04EA8BEC282106DE005DE9D3 /* ViperTrafficLightUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViperTrafficLightUITests.swift; sourceTree = "<group>"; };
 		04EA8BEE282106DE005DE9D3 /* ViperTrafficLightUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViperTrafficLightUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		04EA8C062822624E005DE9D3 /* TrafficLightState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficLightState.swift; sourceTree = "<group>"; };
+		04EA8C0828226263005DE9D3 /* TrafficLightService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficLightService.swift; sourceTree = "<group>"; };
+		04EA8C0A28226271005DE9D3 /* TrafficLightLocalService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficLightLocalService.swift; sourceTree = "<group>"; };
+		04EA8C0C28226294005DE9D3 /* TrafficLightServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficLightServiceProtocol.swift; sourceTree = "<group>"; };
+		04EA8C0F28227699005DE9D3 /* FirstTypeTrafficLightView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstTypeTrafficLightView.xib; sourceTree = "<group>"; };
+		04EA8C13282506C6005DE9D3 /* NibView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibView.swift; sourceTree = "<group>"; };
+		04EA8C1728250EC1005DE9D3 /* SecondTypeTrafficLightView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondTypeTrafficLightView.xib; sourceTree = "<group>"; };
+		04EA8C1928250ED1005DE9D3 /* SecondTypeTrafficLightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTypeTrafficLightView.swift; sourceTree = "<group>"; };
+		04EA8C1B28251621005DE9D3 /* AboutConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutConfigurator.swift; sourceTree = "<group>"; };
+		04EA8C1D2825169C005DE9D3 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		04EA8C1F28251720005DE9D3 /* AboutPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutPresenter.swift; sourceTree = "<group>"; };
+		04EA8C2128251908005DE9D3 /* AboutInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutInteractor.swift; sourceTree = "<group>"; };
+		04EA8C23282519B6005DE9D3 /* AboutRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutRouter.swift; sourceTree = "<group>"; };
+		04EA8C25282525E2005DE9D3 /* GitUrlService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitUrlService.swift; sourceTree = "<group>"; };
+		04EA8C2728252BBC005DE9D3 /* MainPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
+		04EA8C2928252BD0005DE9D3 /* MainInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainInteractor.swift; sourceTree = "<group>"; };
+		04EA8C2B28252BDD005DE9D3 /* MainRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainRouter.swift; sourceTree = "<group>"; };
+		04EA8C2D28252BEC005DE9D3 /* MainConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainConfigurator.swift; sourceTree = "<group>"; };
+		04EA8C2F28252BFF005DE9D3 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		04EA8C322826B31E005DE9D3 /* TrafficLightLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficLightLogic.swift; sourceTree = "<group>"; };
+		04EA8C342826DE81005DE9D3 /* UIViewExtenssion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtenssion.swift; sourceTree = "<group>"; };
+		04EA8C362827A8BD005DE9D3 /* FirstTypeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTypeViewController.swift; sourceTree = "<group>"; };
+		04EA8C382827A8D6005DE9D3 /* SecondTypeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTypeViewController.swift; sourceTree = "<group>"; };
+		04EA8C3F2827E313005DE9D3 /* FirstTypeTrafficLightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTypeTrafficLightView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +154,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		049F9959282B9EFE004473C2 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				049F995A282B9F0D004473C2 /* CustomAnimationCircle.swift */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		049F996A28320CE0004473C2 /* LocalConnection */ = {
+			isa = PBXGroup;
+			children = (
+				049F997628325411004473C2 /* LocalConnectionRouter.swift */,
+				049F99782832541A004473C2 /* LocalConnectionPresenter.swift */,
+				049F997A28325426004473C2 /* LocalConnectionInteractor.swift */,
+				049F997C28325439004473C2 /* LocalConnectionConfigurator.swift */,
+				049F997E28325450004473C2 /* LocalConnectionViewController.swift */,
+			);
+			path = LocalConnection;
+			sourceTree = "<group>";
+		};
+		049F996B28320CEF004473C2 /* RemoteConnection */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = RemoteConnection;
+			sourceTree = "<group>";
+		};
+		049F996C28322357004473C2 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				049F996D283223A5004473C2 /* settings.json */,
+				049F99802832A26F004473C2 /* local_settings.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		049F9971283224B6004473C2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				049F9972283224C1004473C2 /* Settings.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		04EA8BBF282106DB005DE9D3 = {
 			isa = PBXGroup;
 			children = (
@@ -99,12 +221,19 @@
 		04EA8BCA282106DB005DE9D3 /* ViperTrafficLight */ = {
 			isa = PBXGroup;
 			children = (
-				04EA8BCB282106DB005DE9D3 /* AppDelegate.swift */,
+				049F9971283224B6004473C2 /* Models */,
+				049F996C28322357004473C2 /* Data */,
+				049F9959282B9EFE004473C2 /* Animations */,
+				04EA8C312826B2EC005DE9D3 /* Logic */,
+				04EA8C0E28227622005DE9D3 /* Xibs */,
+				04EA8C0328210947005DE9D3 /* Storyboards */,
+				04EA8BFF282108BF005DE9D3 /* Extensions */,
+				04EA8BFE282108A8005DE9D3 /* Services */,
+				04EA8BFD2821089F005DE9D3 /* Entities */,
+				04EA8BFC2821088D005DE9D3 /* Modules */,
 				04EA8BCD282106DB005DE9D3 /* SceneDelegate.swift */,
-				04EA8BCF282106DB005DE9D3 /* ViewController.swift */,
-				04EA8BD1282106DB005DE9D3 /* Main.storyboard */,
+				04EA8BCB282106DB005DE9D3 /* AppDelegate.swift */,
 				04EA8BD4282106DE005DE9D3 /* Assets.xcassets */,
-				04EA8BD6282106DE005DE9D3 /* LaunchScreen.storyboard */,
 				04EA8BD9282106DE005DE9D3 /* Info.plist */,
 			);
 			path = ViperTrafficLight;
@@ -125,6 +254,138 @@
 				04EA8BEE282106DE005DE9D3 /* ViperTrafficLightUITestsLaunchTests.swift */,
 			);
 			path = ViperTrafficLightUITests;
+			sourceTree = "<group>";
+		};
+		04EA8BFC2821088D005DE9D3 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				049F996B28320CEF004473C2 /* RemoteConnection */,
+				049F996A28320CE0004473C2 /* LocalConnection */,
+				04EA8C0528226223005DE9D3 /* About */,
+				04EA8C01282108F8005DE9D3 /* Settings */,
+				04EA8C00282108F1005DE9D3 /* Main */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		04EA8BFD2821089F005DE9D3 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				04EA8C062822624E005DE9D3 /* TrafficLightState.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		04EA8BFE282108A8005DE9D3 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				04EA8C0C28226294005DE9D3 /* TrafficLightServiceProtocol.swift */,
+				04EA8C0828226263005DE9D3 /* TrafficLightService.swift */,
+				04EA8C0A28226271005DE9D3 /* TrafficLightLocalService.swift */,
+				04EA8C25282525E2005DE9D3 /* GitUrlService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		04EA8BFF282108BF005DE9D3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				04EA8C342826DE81005DE9D3 /* UIViewExtenssion.swift */,
+				049F996F28322487004473C2 /* BundleExtenssion.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		04EA8C00282108F1005DE9D3 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				04EA8C3C2827AB33005DE9D3 /* TypeVC */,
+				04EA8C2728252BBC005DE9D3 /* MainPresenter.swift */,
+				04EA8C2928252BD0005DE9D3 /* MainInteractor.swift */,
+				04EA8C2B28252BDD005DE9D3 /* MainRouter.swift */,
+				04EA8C2D28252BEC005DE9D3 /* MainConfigurator.swift */,
+				04EA8C2F28252BFF005DE9D3 /* MainViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		04EA8C01282108F8005DE9D3 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				049F995E282D0B85004473C2 /* SettingsPresenter.swift */,
+				049F9960282D0B92004473C2 /* SettingsInteractor.swift */,
+				049F9962282D0BA4004473C2 /* SettingsRouter.swift */,
+				049F9964282D0BB2004473C2 /* SettingsConfigurator.swift */,
+				049F996828318E04004473C2 /* SettingsViewController.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		04EA8C0328210947005DE9D3 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				04EA8BD1282106DB005DE9D3 /* Main.storyboard */,
+				04EA8BD6282106DE005DE9D3 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		04EA8C0528226223005DE9D3 /* About */ = {
+			isa = PBXGroup;
+			children = (
+				04EA8C1F28251720005DE9D3 /* AboutPresenter.swift */,
+				04EA8C1D2825169C005DE9D3 /* AboutViewController.swift */,
+				04EA8C2128251908005DE9D3 /* AboutInteractor.swift */,
+				04EA8C23282519B6005DE9D3 /* AboutRouter.swift */,
+				04EA8C1B28251621005DE9D3 /* AboutConfigurator.swift */,
+			);
+			path = About;
+			sourceTree = "<group>";
+		};
+		04EA8C0E28227622005DE9D3 /* Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				04EA8C1628250EA7005DE9D3 /* SecondType */,
+				04EA8C1528250E98005DE9D3 /* FirstType */,
+				04EA8C13282506C6005DE9D3 /* NibView.swift */,
+			);
+			path = Xibs;
+			sourceTree = "<group>";
+		};
+		04EA8C1528250E98005DE9D3 /* FirstType */ = {
+			isa = PBXGroup;
+			children = (
+				04EA8C0F28227699005DE9D3 /* FirstTypeTrafficLightView.xib */,
+				04EA8C3F2827E313005DE9D3 /* FirstTypeTrafficLightView.swift */,
+			);
+			path = FirstType;
+			sourceTree = "<group>";
+		};
+		04EA8C1628250EA7005DE9D3 /* SecondType */ = {
+			isa = PBXGroup;
+			children = (
+				04EA8C1728250EC1005DE9D3 /* SecondTypeTrafficLightView.xib */,
+				04EA8C1928250ED1005DE9D3 /* SecondTypeTrafficLightView.swift */,
+			);
+			path = SecondType;
+			sourceTree = "<group>";
+		};
+		04EA8C312826B2EC005DE9D3 /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				04EA8C322826B31E005DE9D3 /* TrafficLightLogic.swift */,
+			);
+			path = Logic;
+			sourceTree = "<group>";
+		};
+		04EA8C3C2827AB33005DE9D3 /* TypeVC */ = {
+			isa = PBXGroup;
+			children = (
+				04EA8C362827A8BD005DE9D3 /* FirstTypeViewController.swift */,
+				04EA8C382827A8D6005DE9D3 /* SecondTypeViewController.swift */,
+				049F995C282BA967004473C2 /* TFTypeViewControllerDelegate.swift */,
+			);
+			path = TypeVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,9 +492,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				049F996E283223A5004473C2 /* settings.json in Resources */,
 				04EA8BD8282106DE005DE9D3 /* LaunchScreen.storyboard in Resources */,
 				04EA8BD5282106DE005DE9D3 /* Assets.xcassets in Resources */,
+				049F99812832A26F004473C2 /* local_settings.json in Resources */,
 				04EA8BD3282106DB005DE9D3 /* Main.storyboard in Resources */,
+				04EA8C1828250EC1005DE9D3 /* SecondTypeTrafficLightView.xib in Resources */,
+				04EA8C1028227699005DE9D3 /* FirstTypeTrafficLightView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +523,44 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04EA8BD0282106DB005DE9D3 /* ViewController.swift in Sources */,
+				049F995B282B9F0D004473C2 /* CustomAnimationCircle.swift in Sources */,
+				04EA8C0928226263005DE9D3 /* TrafficLightService.swift in Sources */,
 				04EA8BCC282106DB005DE9D3 /* AppDelegate.swift in Sources */,
+				049F9961282D0B92004473C2 /* SettingsInteractor.swift in Sources */,
+				049F997728325411004473C2 /* LocalConnectionRouter.swift in Sources */,
+				04EA8C372827A8BD005DE9D3 /* FirstTypeViewController.swift in Sources */,
+				04EA8C1E2825169C005DE9D3 /* AboutViewController.swift in Sources */,
+				04EA8C072822624E005DE9D3 /* TrafficLightState.swift in Sources */,
+				049F996928318E04004473C2 /* SettingsViewController.swift in Sources */,
+				04EA8C24282519B6005DE9D3 /* AboutRouter.swift in Sources */,
+				04EA8C392827A8D6005DE9D3 /* SecondTypeViewController.swift in Sources */,
+				04EA8C0B28226271005DE9D3 /* TrafficLightLocalService.swift in Sources */,
+				049F9973283224C2004473C2 /* Settings.swift in Sources */,
+				04EA8C1A28250ED1005DE9D3 /* SecondTypeTrafficLightView.swift in Sources */,
+				04EA8C2228251908005DE9D3 /* AboutInteractor.swift in Sources */,
+				04EA8C26282525E2005DE9D3 /* GitUrlService.swift in Sources */,
+				04EA8C2028251720005DE9D3 /* AboutPresenter.swift in Sources */,
+				04EA8C14282506C6005DE9D3 /* NibView.swift in Sources */,
+				049F995F282D0B85004473C2 /* SettingsPresenter.swift in Sources */,
+				04EA8C2828252BBC005DE9D3 /* MainPresenter.swift in Sources */,
+				049F997B28325426004473C2 /* LocalConnectionInteractor.swift in Sources */,
+				04EA8C0D28226294005DE9D3 /* TrafficLightServiceProtocol.swift in Sources */,
+				04EA8C332826B31E005DE9D3 /* TrafficLightLogic.swift in Sources */,
+				049F995D282BA967004473C2 /* TFTypeViewControllerDelegate.swift in Sources */,
+				04EA8C352826DE81005DE9D3 /* UIViewExtenssion.swift in Sources */,
+				049F9965282D0BB2004473C2 /* SettingsConfigurator.swift in Sources */,
+				049F997F28325450004473C2 /* LocalConnectionViewController.swift in Sources */,
 				04EA8BCE282106DB005DE9D3 /* SceneDelegate.swift in Sources */,
+				049F9963282D0BA4004473C2 /* SettingsRouter.swift in Sources */,
+				04EA8C402827E313005DE9D3 /* FirstTypeTrafficLightView.swift in Sources */,
+				04EA8C1C28251621005DE9D3 /* AboutConfigurator.swift in Sources */,
+				049F997028322487004473C2 /* BundleExtenssion.swift in Sources */,
+				04EA8C2E28252BEC005DE9D3 /* MainConfigurator.swift in Sources */,
+				049F99792832541A004473C2 /* LocalConnectionPresenter.swift in Sources */,
+				04EA8C2A28252BD0005DE9D3 /* MainInteractor.swift in Sources */,
+				04EA8C2C28252BDD005DE9D3 /* MainRouter.swift in Sources */,
+				049F997D28325439004473C2 /* LocalConnectionConfigurator.swift in Sources */,
+				04EA8C3028252BFF005DE9D3 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

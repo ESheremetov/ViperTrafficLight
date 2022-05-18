@@ -1,0 +1,17 @@
+[
+    {
+        "section": 0,
+        "name": "General",
+        "rows": ["Remote Connection"]
+    },
+    {
+        "section": 1,
+        "name": "Connection",
+        "rows": ["Remote", "Local"]
+    },
+    {
+        "section": 2,
+        "name": "Info",
+        "rows": ["About"]
+    }
+]
